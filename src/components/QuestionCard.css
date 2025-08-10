@@ -1,0 +1,24 @@
+.question-card {
+  border-radius: 12px !important;
+  border: none !important;
+}
+
+.custom-radio .form-check-input {
+  width: 1.5em !important;
+  height: 1.5em !important;
+  float: none !important;
+  cursor: pointer !important;
+}
+
+.custom-radio .form-check-label {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  margin-left: 0.25em !important;
+  cursor: pointer !important;
+}
+
+.small-text {
+  font-size: 0.8rem !important;
+  color: #6c757d !important;
+  margin-top: 0.3rem !important;
+}

@@ -1,0 +1,11 @@
+.ikigai-container {
+  max-width: 800px !important;
+}
+
+.test-container,
+.results-container {
+  background: white !important;
+  padding: 2rem !important;
+  border-radius: 15px !important;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05) !important;
+}

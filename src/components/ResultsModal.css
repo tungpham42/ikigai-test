@@ -1,0 +1,9 @@
+.results-modal .modal-content {
+  border: none !important;
+  border-radius: 15px !important;
+  overflow: hidden !important;
+}
+
+.results-modal .modal-header {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}

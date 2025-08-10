@@ -1,0 +1,19 @@
+.quadrant-card {
+  border-radius: 12px !important;
+  border: none !important;
+  transition: transform 0.3s ease !important;
+}
+
+.quadrant-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+.icon-container {
+  width: 70px !important;
+  height: 70px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: rgba(0, 0, 0, 0.03) !important;
+  border-radius: 50% !important;
+}
