@@ -9,10 +9,10 @@ export function interpretResults(
   const percentage = Math.round((topScore / maxScorePerQuadrant) * 100);
 
   if (percentage > 80) {
-    return `Your strongest area is ${topQuadrant}, which you excel in with ${percentage}%. This is likely a core part of your Ikigai.`;
+    return `Your strongest area is ${topQuadrant}, which you excel in with ${percentage}%. This is likely a core part of your IKIGAI.`;
   } else if (percentage > 60) {
-    return `You have a strong leaning towards ${topQuadrant} at ${percentage}%. This could be a significant focus for finding your Ikigai.`;
+    return `You have a strong leaning towards ${topQuadrant} at ${percentage}%. This could be a significant focus for finding your IKIGAI.`;
   } else {
-    return `Your results are balanced, with ${topQuadrant} slightly ahead at ${percentage}%. Your Ikigai might lie in combining multiple areas.`;
+    return `Your results are balanced, with ${topQuadrant} slightly ahead at ${percentage}%. Your IKIGAI might lie in combining multiple areas.`;
   }
 }

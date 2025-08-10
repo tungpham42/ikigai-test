@@ -27,7 +27,7 @@ const ResultsModal: React.FC<Props> = ({
     >
       <Modal.Header closeButton className="border-0 pb-0">
         <Modal.Title className="w-100 text-center">
-          <h2 className="text-primary">Your Ikigai Results</h2>
+          <h2 className="text-primary">Your IKIGAI Results</h2>
           <p className="text-muted">Discover your purpose and passion</p>
         </Modal.Title>
       </Modal.Header>
