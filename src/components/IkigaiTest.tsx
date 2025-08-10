@@ -48,7 +48,7 @@ const IkigaiTest: React.FC = () => {
   };
 
   return (
-    <Container className="py-4 ikigai-container">
+    <Container className="mt-5 py-4 ikigai-container">
       <h1 className="text-center mb-4 text-primary">Discover Your IKIGAI</h1>
 
       {!showResults ? (
