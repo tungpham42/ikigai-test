@@ -49,8 +49,8 @@ const IkigaiTest: React.FC = () => {
 
   return (
     <Container className="py-4 ikigai-container">
-      <h1 className="text-center mb-4 text-primary">Discover Your Ikigai</h1>
-      
+      <h1 className="text-center mb-4 text-primary">Discover Your IKIGAI</h1>
+
       {!showResults ? (
         <div className="test-container">
           <ProgressHeader
@@ -88,12 +88,12 @@ const IkigaiTest: React.FC = () => {
           />
           {resultMessage && (
             <Alert variant="info" className="mt-4">
-              <h4 className="alert-heading">Your Ikigai Insight</h4>
+              <h4 className="alert-heading">Your IKIGAI Insight</h4>
               <p>{resultMessage}</p>
               <hr />
               <div className="d-flex justify-content-center">
-                <Button 
-                  variant="outline-primary" 
+                <Button
+                  variant="outline-primary"
                   onClick={handleReset}
                   size="lg"
                 >
